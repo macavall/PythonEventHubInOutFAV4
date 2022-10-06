@@ -1,0 +1,15 @@
+{
+  "scriptFile": "__init__.py",
+  "bindings": [
+    {
+      "type": "eventHubTrigger",
+      "name": "event",
+      "direction": "in",
+      "eventHubName": "aaatest56ehhub",
+      "connection": "aaatest56eh_RootManageSharedAccessKey_EVENTHUB",
+      "cardinality": "one",
+      "consumerGroup": "$Default",
+      "dataType":"binary"
+    }
+  ]
+}
